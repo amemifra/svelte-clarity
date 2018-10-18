@@ -1,6 +1,7 @@
 # Svelte Clarity
 
 A Svelte based boilerplate Progressive Web App in Single Page Architecture with Clarity Design System under the wood as ui framework and icons
+https://amemifra.github.io/svelte-clarity/public/
 
 ## Svelte
 

@@ -1,0 +1,23 @@
+<svelte:component this="{Page}"/>
+
+<script>
+  import Homepage from '../pages/Homepage.html';
+  import Answer from '../pages/Answer.html';
+  import Notfound from '../pages/Notfound.html';
+
+  export default {
+    components: { Homepage, Notfound },
+    computed: {
+      Page: ({ $page }) => {
+        switch($page) {
+          case 'homepage':
+            return Homepage;
+          case 'answer':
+            return Answer;
+          default:
+           return Notfound;
+        }
+      }
+    }
+  }
+</script>

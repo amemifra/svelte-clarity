@@ -1,0 +1,56 @@
+<nav class="sidenav">
+  <div class="logo-and-title">
+    <Logo />    
+    <h2 class="title">
+        Application
+    </h2>
+
+  </div>
+  <ul>
+    <li class:active="$page === 'homepage'" on:click="$set({page: 'homepage'})">
+      <h4>Homepage</h4> 
+    </li>
+  </ul>
+</nav>
+
+<script>
+import Logo from '../icons/Logo.html'
+
+export default {
+  components: {
+    Logo
+  }
+}
+</script>
+
+<style>
+  h2 {
+    padding: 1rem 1rem;
+  }
+
+  ul li {
+    list-style-type: none;
+    list-style-position: inside;
+    border-bottom: solid 1px #ADBBC4;
+    color: #ADBBC4;
+    cursor: pointer;
+  }
+
+  .subnav:first-of-type {
+    margin-top: 1rem;
+  }
+
+  .subnav {
+    padding: 0.2rem 0.2rem !important;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .subnav:last-of-type {
+    border-bottom: 0 !important;
+  }
+
+  .active {
+    background-color: rgba(87, 87, 87, 0.01);
+  }
+</style>

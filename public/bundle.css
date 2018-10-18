@@ -1,0 +1,5 @@
+.clr-main-container.svelte-1gtle8f{position:absolute;height:calc(100% - 2.5rem);width:100%;background:#fafafa}
+.page-container.svelte-1hkanrg{padding:2rem}
+.content-container.svelte-169ohhv{width:100%;height:100%;padding:2rem;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr;grid-column-gap:2rem;grid-row-gap:2rem;grid-template-areas:'r1e1 r1e2 r1e2''r2e1 r2e2 r2e3';grid-template-areas:'r1e1 r1e2 r1e2''r2e1 r2e2 r2e3'}.content-container.svelte-169ohhv .card.svelte-169ohhv{margin-top:0;opacity:0.6;padding:1rem}.content-container.svelte-169ohhv .card .card-body.svelte-169ohhv{height:calc(100% - 2rem)}.content-container.svelte-169ohhv .r1e2.svelte-169ohhv{grid-area:r1e2}.content-container.svelte-169ohhv .r2e1.svelte-169ohhv{grid-area:r2e1}.content-container.svelte-169ohhv .r2e2.svelte-169ohhv{grid-area:r2e2}.content-container.svelte-169ohhv .r2e3.svelte-169ohhv{grid-area:r2e3}
+
+/*# sourceMappingURL=bundle.css.map */

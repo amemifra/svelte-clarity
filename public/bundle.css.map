@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\App.html",
+    "..\\src\\pages\\Homepage.html",
+    "..\\src\\pages\\Answer.html"
+  ],
+  "sourcesContent": [
+    "<Icons />\n<Header />\n<div class=\"clr-main-container\">\n  <Router />\n</div>\n\n<style>\n  .clr-main-container {\n    position: absolute;\n    height: calc(100% - 2.5rem);\n    width: 100%;\n    background: #fafafa;\n  }\n</style>\n\n<script>\n  import Icons from './icons/Icons.html';\n  import Router from './components/Router.html';\n  import Header from './components/Header.html';\n\n  export default {\n    components: {\n      Router: './components/Router.html',\n      Icons: './icons/Icons.html',\n      Header: './components/Header.html'\n    }\n  }\n\n</script>\n",
+    "\n<div class=\"page-container fadeIn\">\n    <h1>Homepage</h1>\n    <button class=\"btn btn-primary\">Button</button>\n</div>\n\n<style>\n  .page-container {\n    padding: 2rem;\n  }\n\n</style>\n",
+    "<main class=\"content-container\">\n  <div class=\"card r1e1\">\n    <div class=\"card-body\">\n      <h1>The</h1>\n    </div>\n  </div>\n  <div class=\"card r1e2\">\n    <div class=\"card-body\">\n      <h1>Answer</h1>\n    </div>\n  </div>\n  <div class=\"card r2e1\">\n    <div class=\"card-body\">\n      <h1>is</h1>\n    </div>\n  </div>\n  <div class=\"card r2e2\">\n    <div class=\"card-body\">\n      <h1>4</h1>\n    </div>\n  </div>\n  <div class=\"card r2e3\">\n    <div class=\"card-body\">\n      <h1>2</h1>\n    </div>\n  </div>\n</main>\n\n<style>\n  .content-container {\n    width: 100%;\n    height: 100%;\n    padding: 2rem;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n    grid-template-rows: 1fr 1fr;\n    grid-column-gap: 2rem;\n    grid-row-gap: 2rem;\n    grid-template-areas: 'r1e1 r1e2 r1e2''r2e1 r2e2 r2e3';\n    grid-template-areas: 'r1e1 r1e2 r1e2''r2e1 r2e2 r2e3';\n  }\n  .content-container .card {\n    margin-top: 0;\n    opacity: 0.6;\n    padding: 1rem;\n  }\n\n  .content-container .card .card-body {\n    height: calc(100% - 2rem);\n  }\n\n  .content-container .r1e2 {\n    grid-area: r1e2;\n  }\n\n  .content-container .r2e1 {\n    grid-area: r2e1;\n  }\n\n  .content-container .r2e2 {\n    grid-area: r2e2;\n  }\n\n  .content-container .r2e3 {\n    grid-area: r2e3;\n  }\n\n</style>\n"
+  ],
+  "names": [],
+  "mappings": "AAOE,mBAAmB,eAAC,CAAC,AACnB,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,KAAK,IAAI,CAAC,CAAC,CAAC,MAAM,CAAC,CAC3B,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,OAAO,AACrB,CAAC;ACLD,eAAe,eAAC,CAAC,AACf,OAAO,CAAE,IAAI,AACf,CAAC;ACoBD,kBAAkB,eAAC,CAAC,AAClB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAClC,kBAAkB,CAAE,GAAG,CAAC,GAAG,CAC3B,eAAe,CAAE,IAAI,CACrB,YAAY,CAAE,IAAI,CAClB,mBAAmB,CAAE,gBAAgB,gBAAgB,CACrD,mBAAmB,CAAE,gBAAgB,gBAAgB,AACvD,CAAC,AACD,iCAAkB,CAAC,KAAK,eAAC,CAAC,AACxB,UAAU,CAAE,CAAC,CACb,OAAO,CAAE,GAAG,CACZ,OAAO,CAAE,IAAI,AACf,CAAC,AAED,iCAAkB,CAAC,KAAK,CAAC,UAAU,eAAC,CAAC,AACnC,MAAM,CAAE,KAAK,IAAI,CAAC,CAAC,CAAC,IAAI,CAAC,AAC3B,CAAC,AAED,iCAAkB,CAAC,KAAK,eAAC,CAAC,AACxB,SAAS,CAAE,IAAI,AACjB,CAAC,AAED,iCAAkB,CAAC,KAAK,eAAC,CAAC,AACxB,SAAS,CAAE,IAAI,AACjB,CAAC,AAED,iCAAkB,CAAC,KAAK,eAAC,CAAC,AACxB,SAAS,CAAE,IAAI,AACjB,CAAC,AAED,iCAAkB,CAAC,KAAK,eAAC,CAAC,AACxB,SAAS,CAAE,IAAI,AACjB,CAAC"
+}

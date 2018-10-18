@@ -1,0 +1,243 @@
+/*html, body {
+	position: relative;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	/* padding: 8px; * /
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: Metropolis,"Avenir Next","Helvetica Neue",Arial,sans-serif; * /
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+input[type="range"] {
+	height: 0;
+}
+
+button {
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+ custom animation */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* custom scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #1B2A32;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #17242B;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #17242B;
+}
+
+/* custom
+
+#nwa {
+	display: grid;
+  grid-template-columns: 8rem auto;
+  height: 100%;
+}
+
+#nwa > nav.sidenav {
+	grid-column: 1/2;
+	background-color: #17242B;
+	color: #FAFAFA;
+}
+
+#nwa > nav.sidenav > .logo-and-title > h2 {
+  margin: 0 0 2rem 0;
+}
+
+#nwa > nav.sidenav > .logo-and-title > svg {
+  margin: 1.5rem 0 0 1.5rem;
+}
+
+#nwa > main {
+  grid-column: 2/3;
+  background-color: #1B2A32;
+  color: #FAFAFA;
+  overflow: hidden;
+}
+
+#nwa > main > .page-container {
+  padding: 1rem;
+  margin: auto;
+  height: calc(100% - 2rem);
+  overflow: hidden;
+}
+
+h1 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 32px;
+  letter-spacing: normal;
+}
+
+h2 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 28px;
+  letter-spacing: normal;
+}
+
+h3 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 22px;
+  letter-spacing: normal;
+}
+
+h4 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 18px;
+  letter-spacing: normal;
+}
+
+h5 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 16px;
+  letter-spacing: normal;
+}
+
+h6 {
+  font-family: Metropolis Light;
+  color: #E9ECEF;
+  font-size: 14px;
+  letter-spacing: normal;
+}
+
+p {
+  color: #ADBBC4;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  -webkit-appearance: none!important;
+  border: 1px solid #0079b8;
+  min-width: 3rem;
+  max-width: 15rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  line-height: 1.5rem;
+  letter-spacing: .12em;
+  font-size: .5rem;
+  font-weight: 500;
+  height: 1.5rem;
+  padding: 0 .63rem;
+  background-color: transparent;
+  margin: .25rem .5rem .25rem 0;
+  border-radius: 2rem;
+}
+
+button.primary {
+  border-color: #0079b8;
+  background-color: #0079b8;
+  color: #fff;
+}
+
+button.primary:hover {
+  background-color: #004a70;
+  color: #e1f1f6;
+}
+
+button:focus {
+  outline: dotted 0px;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+button.primary:active {
+  box-shadow: 0 1px 0 0 #0094d2 inset;
+}
+
+*/

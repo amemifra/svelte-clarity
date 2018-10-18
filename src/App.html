@@ -1,0 +1,29 @@
+<Icons />
+<Header />
+<div class="clr-main-container">
+  <Router />
+</div>
+
+<style>
+  .clr-main-container {
+    position: absolute;
+    height: calc(100% - 2.5rem);
+    width: 100%;
+    background: #fafafa;
+  }
+</style>
+
+<script>
+  import Icons from './icons/Icons.html';
+  import Router from './components/Router.html';
+  import Header from './components/Header.html';
+
+  export default {
+    components: {
+      Router: './components/Router.html',
+      Icons: './icons/Icons.html',
+      Header: './components/Header.html'
+    }
+  }
+
+</script>

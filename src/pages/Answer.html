@@ -1,0 +1,68 @@
+<main class="content-container">
+  <div class="card r1e1">
+    <div class="card-body">
+      <h1>The</h1>
+    </div>
+  </div>
+  <div class="card r1e2">
+    <div class="card-body">
+      <h1>Answer</h1>
+    </div>
+  </div>
+  <div class="card r2e1">
+    <div class="card-body">
+      <h1>is</h1>
+    </div>
+  </div>
+  <div class="card r2e2">
+    <div class="card-body">
+      <h1>4</h1>
+    </div>
+  </div>
+  <div class="card r2e3">
+    <div class="card-body">
+      <h1>2</h1>
+    </div>
+  </div>
+</main>
+
+<style>
+  .content-container {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-areas: 'r1e1 r1e2 r1e2''r2e1 r2e2 r2e3';
+    grid-template-areas: 'r1e1 r1e2 r1e2''r2e1 r2e2 r2e3';
+  }
+  .content-container .card {
+    margin-top: 0;
+    opacity: 0.6;
+    padding: 1rem;
+  }
+
+  .content-container .card .card-body {
+    height: calc(100% - 2rem);
+  }
+
+  .content-container .r1e2 {
+    grid-area: r1e2;
+  }
+
+  .content-container .r2e1 {
+    grid-area: r2e1;
+  }
+
+  .content-container .r2e2 {
+    grid-area: r2e2;
+  }
+
+  .content-container .r2e3 {
+    grid-area: r2e3;
+  }
+
+</style>

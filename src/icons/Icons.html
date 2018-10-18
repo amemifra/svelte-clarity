@@ -1,0 +1,28 @@
+<script>
+import * as CustomElements from '../../node_modules/@webcomponents/custom-elements/custom-elements.min'
+import * as Icons from '../../node_modules/@clr/icons/clr-icons.min'
+import * as ShapePin from "@clr/icons/shapes/essential-shapes";
+import * as ShapeCog from "@clr/icons/shapes/core-shapes";
+import * as ShapeStar from "@clr/icons/shapes/social-shapes";
+import * as ShapeCar from "@clr/icons/shapes/travel-shapes";
+import { Logo } from './logo.js';
+
+const ClrIcons = Icons.__moduleExports.ClarityIcons
+
+const ClrShapePin = ShapePin.__moduleExports.ClrShapePin
+const ClrShapeStar = ShapeStar.__moduleExports.ClrShapeStar
+const ClrShapeCar = ShapeCar.__moduleExports.ClrShapeCar
+const ClrShapeCog = ShapeCog.__moduleExports.ClrShapeCog
+
+ClrIcons.add({
+  pin: ClrShapePin,
+  star: ClrShapeStar,
+  car: ClrShapeCar,
+  cog: ClrShapeCog,
+  'logo': Logo
+});
+
+export default {
+  components: { CustomElements, ClrIcons }
+}
+</script>

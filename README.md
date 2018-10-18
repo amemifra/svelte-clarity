@@ -1,6 +1,6 @@
 # Svelte Clarity
 
-A svelte based boilerplate Progressive Web App in Single Page Architecture with Clarity Design System under the wood as ui framework and icons
+A Svelte based boilerplate Progressive Web App in Single Page Architecture with Clarity Design System under the wood as ui framework and icons
 
 ## Svelte
 
